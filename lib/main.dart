@@ -1,4 +1,4 @@
-/// main.dart — Offline Starter home screen.
+/// main.dart — Footings home screen.
 ///
 /// Live search across the whole collection, filter by category,
 /// browse by category. Tap any item for its detail page. The user's
@@ -27,7 +27,7 @@ class OfflineStarterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Offline Starter',
+      title: 'Footings',
       theme: buildLightTheme(),
       darkTheme: buildDarkTheme(),
       themeMode: ThemeMode.system,
@@ -165,7 +165,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         flexibleSpace: const PlumAppBarBackground(),
-        title: const Text('Offline Starter'),
+        title: const Text('Footings'),
         actions: [
           IconButton(
             icon: Icon(

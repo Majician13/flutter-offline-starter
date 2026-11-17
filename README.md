@@ -1,4 +1,6 @@
-# Offline Starter
+# Footings
+
+**Your app's foundation, poured and ready.**
 
 A Flutter starter kit for an **offline-first** app: a bundled read-only
 database copied on first launch, a separate writable user database,

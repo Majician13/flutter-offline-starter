@@ -1,4 +1,4 @@
-# Setup — Offline Starter
+# Setup — Footings
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ flutter build apk --debug
 ## Rename the package
 
 The kit ships as `com.example.offline_starter` with the display
-name "Offline Starter". Both are placeholders — rename them before
+name "Footings". Both are placeholders — rename them before
 you ship anything:
 
 1. **Android:** in `android/app/build.gradle.kts`, change

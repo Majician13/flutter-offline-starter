@@ -1,0 +1,24 @@
+name: offline_starter
+description: "A Flutter starter kit for an offline-first app: a bundled read-only database copied on first launch, a separate writable user database, favorites, search, and categories."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/starter.db
